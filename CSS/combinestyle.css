@@ -1,0 +1,287 @@
+html, body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f4f0;
+    height: auto;
+    font-family: Quicksand, sans-serif;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+    overflow: hidden;
+    background-color: #076481;
+}
+
+/* Float the list items side by side */
+ul.topnav li{float: right;}
+ul.topnav li:first-child{
+    float: left;
+}
+
+ul.topnav li:nth-child(2){
+	float: left;
+	opacity: 0.7;
+	display: inline-block;
+    color: lightblue;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	cursor: default;
+}
+	
+	
+	
+	.langLink:hover{
+		color: #fff;
+		cursor: pointer;
+	}
+	
+	.langChosen{
+		color: #fff;
+	}
+	
+	.langChosen:hover{
+		cursor: default;
+	}
+	
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: lightblue;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.topnav li:nth-child(4){
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+.topnav li:nth-child(4):hover{
+    border: 1px solid white;
+    transition: border 0.5s ease;
+}
+.topnav li a:hover{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+/* Slideshow Fading animation (login, map, places) */
+
+* {box-sizing:border-box}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+}
+.slideshow-container img{
+    width: 100%
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+
+.slideshow-container h2{
+    position: absolute;
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 2.3vw;
+    letter-spacing: 15px;
+    font-weight: 400;
+    color: rgba(239, 236, 201, 0.4);
+    z-index:100;
+}
+
+.info{
+    position: relative;
+}
+.totop{
+    position:relative;
+    text-align: center;
+}
+.totop a{
+    text-decoration: none;
+}
+
+.fa-chevron-circle-up:before{
+    font-size: 50px;
+    color: #076481;
+}
+footer{
+    height: 100px;
+    /*bottom: 0;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #012F2F;
+    font-family: Raleway, 'sans-serif';
+}
+
+footer h2{
+    border-top: 1px solid grey;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-top: 15px;
+
+}
+.redBorder{
+    border-color: red !important;
+}
+span.formWarning, span.loginWarning, span.emailWarning{
+    display: none;
+    color: red;
+}
+
+@media only screen and (max-device-width : 1014px){
+    .loginContainer, .signup-container{
+        float:none;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+}
+@media only screen and (max-device-width : 870px){
+    .formtohide{
+        display:none;
+    }
+    .main{
+        top:50px;
+    }
+    .header-text{
+        width: 80%;
+    }
+    .header-text h2{
+        font-size: 4.5vw;
+    }
+    .mainHidden{
+        display:block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+
+    /*  Maps responsive styles */
+
+
+    #side-panel{
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #map{
+        float: none;
+        width: 100%;
+        height: 400px;
+        left: 0;
+        right: 0;
+    }
+    .myMap{
+        width: 100%;
+    }
+
+
+    .mainContainer{
+        width: 100%;
+    }
+    .about h2{
+        font-size: 25px
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .main-places-container{
+        width: 80%;
+        padding-bottom:0;
+    }
+    #choose{
+        padding:0;
+        font-size: 25px;
+    }
+    .topnav li:nth-child(3){
+        border: none;
+    }
+
+}
+input.button{
+    width: 50%;
+    padding: 10px 5px;
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #076481;
+    color: #076481;
+    background-color: rgba(200, 200, 200, 0);
+    cursor: pointer;
+}
+#button1{
+	width: 100px;
+}
+
+
+.button:focus{
+    outline: none;
+}
+.button:hover{
+    transition: 0.3s ease;
+    background-color: rgba(1, 47, 47, 0.3);
+}
+.button:active{
+    background-color: rgba(7, 100, 129, 0.15);
+}
+
+

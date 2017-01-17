@@ -1,0 +1,59 @@
+/*! \mainpage Welcome to Trippy user guide
+ *
+ * 
+ *
+ * \section Loging Loging in
+ *
+ * \subsection step1 Step 1: Click on the Log In button in the top rigth corner.
+ * \subsection step2 Step 2: Insert your login credentials (username or email and password) into the left form.
+ * \subsection step3 Step 3: Press Log In button and you will be redirected to the main page.
+ * \image html login.jpg "Login form"
+ * \n
+ * \n
+ * \n
+ * \section Register Registrating a new account
+ * \subsection step4 Step 1: Click on the Log In button in the top rigth corner.
+ * \subsection step5 Step 2: Insert your credentials (username, email and password) into the right form.
+ * \subsection step6 Step 3: Retype your password.
+ * \subsection step7 Step 4: Press Create button.
+ * \image html register.jpg "Register form"
+ * \n
+ * \n
+ * \n
+ * \section Forget Forgetting your account's password
+ * \subsection step8 Step 1: Click on the Log In button in the top rigth corner.
+ * \subsection step9 Step 2: Click on "Forgot pasword?" link below Log In button on the left form.
+ * \image html forgot1.jpg "Forgot password link"
+ * \subsection step10 Step 3: You will be redirected to a new page where you insert your account's email address.
+ * \subsection step11 Step 4: Press Send button.
+ * \image html forgot2.jpg "Sending information to email"
+ * \subsection step12 Step 5: You will recieve an email with the link to change your old password.
+ * \n
+ * \n
+ * \n
+ * \section change Changing your account's old password
+ * \subsection step13 Step 1: Log In to your account
+ * \subsection step14 Step 2: Click on your username in the navigation bar at the top of the page.
+ * \image html change1.jpg "Username in the navigation bar"
+ * \subsection step15 Step 3: You will be redirected to your profile page.
+ * \subsection step16 Step 4: Insert your old and your new password.
+ * \subsection step17 Step 5: Retype your new password.
+ * \subsection step18 Step 6: Press Change button.
+ * \image html change2.jpg "Profile page form"
+ * \n
+ * \n
+ * \n
+ * \section using How to use Trippy trip planner
+ * \subsection step19 Step 1: Log In to your account
+ * \subsection step20 Step 2: You will be redirected to the home page.
+ * \subsection step21 Step 3: Type in your starting and ending destination and press Plan your trip button.
+ * \image html using1.jpg "Starting and ending destination"
+ * \subsection step22 Step 4: On the next page chose your stops on the right side of the screen (for multiple stops hold down "control").
+ * \image html using2.jpg "Selecting stops"
+ * \subsection step23 Step 5: Press Show button.
+ * \subsection step24 Step 6: Your route will be generated on the map and route information on the right of the page.
+ * \image html using3.jpg "Generated route" width=15cm
+ * \n
+ * \n
+ * \n
+ */

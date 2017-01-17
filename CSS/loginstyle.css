@@ -1,0 +1,101 @@
+
+.mainContainer{
+    position:relative;
+    width: 75vw;
+    min-height: 600px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.mainContainer2{
+    position:relative;
+    width: 75vw;
+    min-height: 600px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.loginContainer{
+    position:relative;
+    float:left;
+    width: 380px;
+    height: 500px;
+    border: 2px solid #076481;
+    border-radius: 25px;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    -webkit-box-shadow: 0 5px 20px 2px grey;
+    -moz-box-shadow: 0 5px 20px 2px grey ;
+    box-shadow: 0 5px 10px 2px grey;
+    margin: 25px 0;
+}
+.signup-container{
+    position:relative;
+    float:right;
+    width: 380px;
+    height: 500px;
+    border: 2px solid #076481;
+    border-radius: 25px;
+    display:flex;
+    flex-flow: column;
+    -webkit-box-shadow: 0 5px 20px 2px grey;
+    -moz-box-shadow: 0 5px 20px 2px grey ;
+    box-shadow: 0 5px 10px 2px grey;
+    margin: 25px 0;
+}
+
+h1{
+    text-align: center;
+    font-family: quicksand, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #076481;
+    width: 100%;
+}
+
+form{
+    width:100%;
+    color: #076481;
+    font-weight: 400;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.loginContainer form{
+    top:5%;
+}
+
+
+input[type = "text"], input[type ="password"], input[type = "email"]{
+    width: 70%;
+    padding: 10px 3px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background: #f5f4f0;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey ;
+    box-shadow: 0 0 20px 1px grey;
+}
+
+.forgoten{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#forgot{
+    font-size: 14px;
+}
+
+
+

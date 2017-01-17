@@ -1,0 +1,96 @@
+/*.places{
+    position:relative;
+    background-color: red;
+    width:100%;
+    height: 600px;
+}*/
+
+.main-places-container{
+    position:relative;
+    min-height: 0px;
+    width: 60%;
+    margin: 0 auto;
+    /*top: 80px;*/
+    text-align: center;
+    /*display: flex;
+    flex-flow: column;*/
+    padding-bottom:20px;
+
+}
+.main-places-container h1{
+    font-weight: 400;
+    font-size: 3vw;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px dotted #012F2F;
+}
+.pokrajina{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    padding:3% 0;
+    background: #076481;
+    border-radius: 20px;
+}
+
+.abouttext{
+    background: #f5f4f0;
+    width:100%;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ime-pokrajine{
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: #f5f4f0;
+    padding: 2% 5%;
+}
+.fa-chevron-right:before{
+    font-size: 2.5vw;
+
+}
+input[type=checkbox] + .fa-chevron-right {
+    color: #ccc;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ label {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+input[type=checkbox]:checked ~ div {
+    display:block;
+    max-height: 500px;
+    transition: max-height 0.5s ease-in-out;
+
+}
+
+ul.regionList{
+	
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	padding-top: 10px;
+}
+	.regionList li{
+		display: inline-block;
+		margin: auto 20px auto 20px;
+	}
+	
+textarea.placeDescription{
+	width: 90%;
+}

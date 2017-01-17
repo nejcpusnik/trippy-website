@@ -1,0 +1,152 @@
+/*.fa-chevron-circle-down:before{
+    font-size: 50px;
+    color: #076481;
+}
+#tomap{
+    text-decoration: none;
+}*/
+#choose{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #076481;
+    padding: 5% 0;
+}
+.myMap{
+    position: relative;
+    width:80%;
+    background-color: #f5f4f0;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+#map{
+    position: relative;
+    width: 70%;
+    float:left;
+    height: 600px;
+    background-color: grey;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+}
+#pac-input2 {
+    background-color: #fff;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+}
+
+#pac-input:focus {
+    border-color: #076481;
+}
+
+#pac-input2:focus {
+    border-color: #076481;
+}
+
+.pac-container {
+    font-family: Quicksand, sans-serif;
+}
+
+
+#side-panel{
+    position: relative;
+    float: right;
+    width: 30%;
+    padding:0;
+    margin: 0;
+}
+#side-panel #waypoints{
+    width: 95%;
+    font-size: 20px;
+    padding: 10px 0;
+
+
+}
+#side-panel p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #076481;
+}
+
+#side-panel select {
+    width: 100%;
+    color: white;
+    border: 4px solid #076481;
+    border-radius: 10px;
+    background-color: #076481;
+}
+#side-panel select:focus{
+    outline: none;
+}
+#submit{
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid #076481;
+    margin-top: 30px;
+    color: #076481;
+    background-color: rgba(200, 200, 200, 0);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#submit:focus{
+    outline:none;
+}
+#submit:hover{
+    background: white;
+    border: 2px solid white;
+}
+#submit:active{
+    background-color: rgba(7, 100, 129, 0.15);
+}
+.directions-panel {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+#routeinfo{
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.inputText{
+    width: 70%;
+    padding: 10px 3px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background: #f5f4f0;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
